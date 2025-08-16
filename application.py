@@ -1,13 +1,13 @@
 import os
 import streamlit as st
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 from src.utils.helpers import QuizManager, rerun
 from src.generator.enhanced_question_generator import EnhancedQuestionGenerator
 from src.utils.pdf_processor import PDFProcessor
 from src.generator.pdf_summarizer import PDFSummarizer
 
-load_dotenv()
+# load_dotenv()
 
 def main():
     st.set_page_config(
